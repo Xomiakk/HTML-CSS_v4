@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("☺"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.2);
+}
+#header .block-header {
+  width: 1220px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 0 auto;
+  height: 100px;
+}
+#header .block-header img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  float: left;
+}
+#header .block-header .menu {
+  display: block;
+  float: right;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+#header .block-header .menu a {
+  color: #666666;
+  text-decoration: none;
+}
+#header .block-header .menu .appl {
+  border-radius: 50px;
+  background-color: #337ab7;
+  color: white;
+}
+#header .block-header .menu .appl a {
+  color: white;
+}
+#header .block-header .menu li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 22px;
+  font-family: "OpenSans";
+  font-size: 16px;
+  color: #666666;
+  padding: 10px;
+}
+#header .block-header .menu :hover:not(.appl) {
+  background-color: #eee;
+}
+
+#application {
+  height: auto;
+  background-color: #f7f7f7;
+  padding-top: 100px;
+}
+#application .block-application {
+  width: 1220px;
+  margin: 0px 15px 0px;
+  margin: 0 auto;
+  height: auto;
+  background-color: #f7f7f7;
+}
+#application .block-application .descr-appl {
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+}
+#application .block-application .descr-appl h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-family: "OpenSans";
+}
+#application .block-application .descr-appl p {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "OpenSans";
+  padding-top: 20px;
+  font-size: 16px;
+  color: #787878;
+}
+#application .form {
+  width: 50%;
+  float: left;
+  height: auto;
+}
+#application .form .forma {
+  float: left;
+  height: auto;
+  width: 500px;
+}
+#application .form .modal-header {
+  font-family: "OpenSans";
+  font-size: 24px;
+  padding-top: 50px;
+}
+#application .form .feedback {
+  font-family: "OpenSans";
+  color: #535353;
+  font-size: 14px;
+  float: left;
+  margin-bottom: 5px;
+}
+#application .form img {
+  width: 8px;
+  height: 8px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+#application .form .input {
+  font-family: "OpenSans";
+  width: 500px;
+  padding: 10px;
+  font-weight: 400;
+  background-color: #fff;
+  border: solid 1px #777777;
+  border-radius: 1px;
+}
+#application .form .checkbox {
+  font-family: "OpenSans";
+  margin-top: 20px;
+  float: left;
+  margin-right: 5px;
+}
+#application .form .checkbox-text {
+  display: block;
+  font-family: "OpenSans";
+  color: #535353;
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+  margin-top: 17px;
+  width: 310px;
+}
+#application .form .checkbox-text img {
+  padding-top: 20px;
+}
+#application .form .href {
+  color: #6898da;
+  text-decoration: none;
+}
+#application .form input:focus:required:invalid {
+  outline: none;
+  background-color: #fffefe;
+  border: solid 1px rgb(158, 172, 255);
+  box-shadow: 0 0 5px rgb(145, 192, 255);
+}
+#application .form .button {
+  font-family: "OpenSans";
+  width: 300px;
+  height: 42px;
+  margin-left: 100px;
+  border-style: none;
+  appearance: none;
+  background: #337ab7;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 30px;
+}
