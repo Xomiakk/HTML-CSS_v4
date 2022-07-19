@@ -15,6 +15,8 @@ function css_style(done) {
 
 function watchFiles() {
     gulp.watch("./scss/**/*", css_style)
+    gulp.watch("./**/*.css", browserReload)
+    gulp.watch("./**/*.js", browserReload)
     gulp.watch("./**/*.html", browserReload);
 }
 
