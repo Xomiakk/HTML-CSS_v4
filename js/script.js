@@ -29,7 +29,6 @@ $(document).ready(function(){
         speed:1000,
         slidesToScroll:1,
         autoplaySpeed:10000,
-        dots: true,
-        waitForAnimate: false,
+        dots: true
     })
 });
